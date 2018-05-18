@@ -1,0 +1,909 @@
+﻿<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>InfoStudy</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/flipster.min.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<link rel="stylesheet" href="css/main.min.css" />
+	<link rel="stylesheet" href="libs/fontawesome/css/fontawesome-all.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+	<body>
+	
+		<header class="header">
+			<div class="topbar">
+				<div class="container">
+					<nav class="pull-left">
+						<ul>
+							<li><a href="#" class="request_open">Анкета</a></li>
+							<li><a href="#about">О центре </a></li>
+							<li><a href="#prices">Направление</a></li>
+							<li><a href="#choice">ВУЗы</a></li>
+							<li><a href="#tabs">Программы</a></li>
+							<li><a href="#calc">Требования к поступлению</a></li>
+							<li><a href="#faq">Вопросы студентов</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="messengers pull-right">
+						<a href="#" class="whatsapp desktop">WhatsApp</a>
+						<a  href="https://api.whatsapp.com/send?phone=16473382261" class="whatsapp mobile">WhatsApp</a>
+						<a  href="skype:infostudycanada?chat" class="skype">Skype</a>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="header__logo pull-left">
+					<a href="#">
+						<img src="img/logo.svg" alt="logo" width="170">
+					</a>
+					<p>Межрегиональный Центр <br>«ТЕРРИТОРИЯ ОБРАЗОВАНИЯ»</p>
+				</div>
+				<div class="button">
+					<div class="hamb"> <!-- Hamburger -->
+						<span></span>
+						<span></span>
+						<span></span>
+					</div> <!-- /Hamburger -->
+				</div>
+				<div class="header__contacts pull-right">
+					<a href="#" class="tel">+7 (963) <strong>653-32-01</strong></a>
+					<a href="#" class="callback callback_open">Заказать звонок</a>
+				</div>
+			</div>
+		</header>
+
+		<nav class="mobile__menu"> 
+			<ul>
+				<li><a href="#" class="request_open">Анкета</a></li>
+				<li><a href="#about">О центре </a></li>
+				<li><a href="#prices">Направление</a></li>
+				<li><a href="#steps">ВУЗы</a></li>
+				<li><a href="#calc">Программы</a></li>
+				<li><a href="#faq">Требования к поступлению</a></li>
+				<li><a href="#faq">Вопросы студентов</a></li>
+				<li><a href="#contacts">Контакты</a></li>
+				<li><a href="#" class="tel">+7 (963) <strong>653-32-01</strong></a></li>
+				<li><a  href="https://api.whatsapp.com/send?phone=16473382261" class="whatsapp">WhatsApp</a></li>
+				<li><a  href="skype:infostudycanada?chat" class="skype">Skype</a></li>
+				<li><a href="#" class="callback_open btn btn--red">Заказать звонок</a></li>
+			</ul>
+		</nav>
+		
+		<div class="overlay"></div>
+		
+		<section class="top">
+			<div class="container">
+				<div class="top__text">
+					<div class="row">
+						<div class="col-lg-8 col-md-6">
+							
+							<h1>Стань студентом одного <br>из ведущих учебных заведений страны.</h1>
+							<h2>Живи и работай в родном городе, учись дистанционно, <br>экономь время и деньги!</h2>
+
+						</div>
+						<div class="col-lg-4 col-md-6">
+							
+							<div class="buttons">
+								<div class="item">
+									<a href="#" class="video video_open">Смотреть видеообращение</a>
+								</div>
+								<div class="item">
+									<a href="#" class="request_open btn btn--red">ОСТАВЬТЕ ЗАЯВКУ НА ПОСТУПЛЕНИЕ</a>
+									<p><strong>*</strong> выбранное направление и профиль ускорит поиск <br>ответов на Ваши вопросы</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="top__list">
+					<ul>
+						<li><i class="fas fa-arrow-alt-circle-right"></i>Приемная кампания в нашем <br> центре длится круглый год</li>
+						<li><i class="fas fa-arrow-alt-circle-right"></i>Бесплатные профессиональные <br>консультации по подбору вуза</li>
+						<li><i class="fas fa-arrow-alt-circle-right"></i>Обучение в любое время <br>и из любой точки планеты,<br> без выезда на сессию</li>
+						<li><i class="fas fa-check-circle"></i>Получение образования<br> без отрыва от семьи и работы, дипломы гос. образца</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<section class="about" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="about__text col-lg-9 col-md-12 col-sm-12 col-xs-12">
+						<div class="title">
+							<h2>о Нашем центре</h2>
+						</div>
+						<div class="slider">
+							<div class="text">
+								<div class="swiper-container about-slider">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<p>Межрегиональный Центр «Территория образования» рад приветствовать всех желающих получить первое или второе высшее образование, не отрываясь от рабочего места, семьи, тренировок, срочной или контрактной военной службы, а также повседневных хлопот. Мы за современные технологии в сфере образования. Дистанционное образование дает возможность учиться в любое время дня и ночи, из любой точки планеты. Все, что для этого нужно — это желание, компьютер или смартфон, а также доступ в интернет.</p>
+											<p>Наш центр является официальным партнером семи вузов. Количество наших партнерских контрактов постоянно растет. Мы предлагаем более 30 технических и гуманитарных направлений обучения по программам бакалавриата, специалитета и магистратуры.</p>
+										</div>
+										<div class="swiper-slide">
+											<p>Мы вместе сделаем важный шаг в Вашей жизни: спланируем Вашу профессиональную карьеру и разработаем план поступления. </p>
+											<p>После вашего приезда в Канаду Вы получите профессиональную поддержку, чтобы чувствовать себя комфортно и счастливо в этой удивительной и гостеприимной северной стране.  Я поделюсь с вами своими знаниями и житейским опытом, подскажу как лучше решить те или иные жизненные ситуации, найти жилье и работу. Возможно оформление опекунства над студентами до достижения 18-летия.</p>
+										</div>
+									</div>
+									<!-- Add Pagination -->
+									<div class="swiper-pagination"></div>
+									<!-- Add Arrows -->
+									<div class="swiper-button-next"><i class="fas fa-arrow-right"></i></div>
+									<div class="swiper-button-prev"><i class="fas fa-arrow-left"></i></div>
+								</div>
+							</div>
+						</div>
+						<div class="image">
+							<img src="img/certificate.png" alt="" />
+						</div>
+					</div>
+					<div class="about__list col-lg-3 col-md-12 col-sm-12 col-xs-12">
+						<div class="item">
+							<i class="sprite sprite-about-icon1"></i>
+							<span>Помогу с <br />профориентацией</span>
+						</div>
+						<div class="item">
+							<i class="sprite sprite-about-icon2"></i>
+							<span>Самые свежие сведения <br />и житейский совет</span>
+						</div>
+						<div class="item">
+							<i class="sprite sprite-about-icon3"></i>
+							<span>Моя помощь <br />абсолютно бесплатна</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="namber section">
+			<div class="container">
+
+				<h2>Мы в цифрах</h2>
+				
+				<ul>
+					<li>
+						<b>15</b>
+						<h4>15 лет успешной работы <br>в сфере образования <br>и колоссальный опыт</h4>
+					</li>
+					<li>
+						<b>12</b>
+						<h4>12 партнерских контрактов <span>(количество постоянно растет)</span></h4>
+					</li>
+					<li>
+						<b>1 000</b>
+						<h4>более 1000 студентов уже отучились</h4>
+					</li>
+					<li>
+						<b>17 000</b>
+						<h4>стоимость от 17 000 руб. в семестр <span>(уточняйте у менеджера по указанному ниже телефону)</span></h4>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+		
+		<section class="prices" id="prices">
+			<div class="container">
+				<div class="title">
+					<h2>КАКОЕ ОБРАЗОВАНИЕ МОЖНО ПОЛУЧИТЬ ЧЕРЕЗ НАШ ЦЕНТР</h2>
+				</div>
+			</div>
+			<div class="container">
+			<div class="my-flipster">
+				<ul>
+					<li>
+						<div class="inner">
+							<i class="fas fa-graduation-cap"></i>
+							<h3>высшее <br>магистратура</h3>
+							<div class="price">
+								<span>от 25 000</span>
+								<p>рублей в семестр</p>
+							</div>
+							<div class="text">
+								<p>Диплом магистра по экономике позволяет работать в экономических, финансовых, маркетинговых, аналитических службах российских и зарубежных организаций различных отраслей, форм собственности и любого направления экономической деятельности, в научно-исследовательских подразделениях, отделах стратегического...</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<i class="fas fa-graduation-cap"></i>
+							<h3>высшее <br>магистратура</h3>
+							<div class="price">
+								<span>от 20 000</span>
+								<p>рублей в семестр</p>
+							</div>
+							<div class="text">
+								<p>Диплом магистра по экономике позволяет работать в экономических, финансовых, маркетинговых, аналитических службах российских и зарубежных организаций различных отраслей, форм собственности и любого направления экономической деятельности, в научно-исследовательских подразделениях, отделах стратегического...</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<i class="fas fa-graduation-cap"></i>
+							<h3>высшее <br>магистратура</h3>
+							<div class="price">
+								<span>от 20 000</span>
+								<p>рублей в семестр</p>
+							</div>
+							<div class="text">
+								<p>Диплом магистра по экономике позволяет работать в экономических, финансовых, маркетинговых, аналитических службах российских и зарубежных организаций различных отраслей, форм собственности и любого направления экономической деятельности, в научно-исследовательских подразделениях, отделах стратегического...</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<i class="fas fa-graduation-cap"></i>
+							<h3>высшее <br>магистратура</h3>
+							<div class="price">
+								<span>от 20 000</span>
+								<p>рублей в семестр</p>
+							</div>
+							<div class="text">
+								<p>Диплом магистра по экономике позволяет работать в экономических, финансовых, маркетинговых, аналитических службах российских и зарубежных организаций различных отраслей, форм собственности и любого направления экономической деятельности, в научно-исследовательских подразделениях, отделах стратегического...</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<i class="fas fa-graduation-cap"></i>
+							<h3>высшее <br>магистратура</h3>
+							<div class="price">
+								<span>от 30 000</span>
+								<p>рублей в семестр</p>
+							</div>
+							<div class="text">
+								<p>Диплом магистра по экономике позволяет работать в экономических, финансовых, маркетинговых, аналитических службах российских и зарубежных организаций различных отраслей, форм собственности и любого направления экономической деятельности, в научно-исследовательских подразделениях, отделах стратегического...</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<i class="fas fa-graduation-cap"></i>
+							<h3>высшее <br>магистратура</h3>
+							<div class="price">
+								<span>от 29 000</span>
+								<p>рублей в семестр</p>
+							</div>
+							<div class="text">
+								<p>Диплом магистра по экономике позволяет работать в экономических, финансовых, маркетинговых, аналитических службах российских и зарубежных организаций различных отраслей, форм собственности и любого направления экономической деятельности, в научно-исследовательских подразделениях, отделах стратегического...</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+				<div class="prices__after">
+					<a href="#" class="btn btn--green message_open">Готовы поступать? Жмите!</a>
+				</div>
+			</div>
+		</section>
+		
+		<section class="choice section" id="choice">
+			<div class="container">
+				
+				<h2>ВЫБЕРИТЕ УЧЕБНОЕ ЗАВЕДЕНИЕ</h2>
+
+				<div class="choice__list">
+					<div class="choice__item">
+						<div><img src="img/choice/1.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/2.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/3.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/4.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/5.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/6.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/7.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/8.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/9.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+					<div class="choice__item">
+						<div><img src="img/choice/10.jpg" alt="item"></div>
+						<a href="#" class="choice__btn">Подробнее</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="tabs section" id="tabs">
+			<div class="container">
+				
+				<h2>Программы обучения</h2>
+
+				<ul>
+					<li><a href="#one">Колледж</a></li>
+					<li><a href="#two">Высшее бакалавриат</a></li>
+					<li><a href="#three">Высшее магистратура</a></li>
+					<li><a href="#four">Профессиональная переподготовка</a></li>
+					<li><a href="#five">Повышение квалификации</a></li>
+				</ul>
+
+				<div id="one" class="tabs__wrap">
+					<div class="tabs__wrap_block">
+						<img src="img/tab-1.jpg" alt="tab">
+						
+						<div>
+							<b>Колледж</b>
+							<h3>Операционная деятельность в логистике</h3>
+							<p>Колледж НОУ ВО «Московский Технологический Институт»</p>
+						
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-2.jpg" alt="tab">
+						<div>
+							<b>Высшее (бакалавриат)</b>
+							<h3>Социальная психология</h3>
+							<p>Институт мировых цивилизаций</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-3.jpg" alt="tab">
+						<div>
+							<b>Высшее (магистратура)</b>
+							<h3>Конституционное право</h3>
+							<p>Российский государственный социальный университет ФГБОУ ВО </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-5.jpg" alt="tab">
+						<div>
+							<b>Проф. переподготовка</b>
+							<h3>Организация и технология защиты информации</h3>
+							<p>ГБПОУ города Москвы «Политехнический колледж им. Н.Н. </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+
+				<div id="two" class="tabs__wrap">
+					<div class="tabs__wrap_block">
+						<img src="img/tab-4.jpg" alt="tab">
+						<div>
+							<b>Высшее (бакалавриат)</b>
+							<h3>Социальная психология</h3>
+							<p>Институт мировых цивилизаций</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+
+					<div class="tabs__wrap_block">
+						<img src="img/tab-6.jpg" alt="tab">
+						<div>
+							<b>Колледж</b>
+							<h3>Операционная деятельность в логистике</h3>
+							<p>Колледж НОУ ВО «Московский Технологический Институт»</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-1.jpg" alt="tab">
+						<div>
+							<b>Высшее (магистратура)</b>
+							<h3>Конституционное право</h3>
+							<p>Российский государственный социальный университет ФГБОУ ВО </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-2.jpg" alt="tab">
+						<div>
+							<b>Проф. переподготовка</b>
+							<h3>Организация и технология защиты информации</h3>
+							<p>ГБПОУ города Москвы «Политехнический колледж им. Н.Н. </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+
+				<div id="three" class="tabs__wrap">
+					<div class="tabs__wrap_block">
+						<img src="img/tab-3.jpg" alt="tab">
+						
+						<div>
+							<b>Колледж</b>
+							<h3>Операционная деятельность в логистике</h3>
+							<p>Колледж НОУ ВО «Московский Технологический Институт»</p>
+						
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-4.jpg" alt="tab">
+						<div>
+							<b>Высшее (бакалавриат)</b>
+							<h3>Социальная психология</h3>
+							<p>Институт мировых цивилизаций</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-5.jpg" alt="tab">
+						<div>
+							<b>Высшее (магистратура)</b>
+							<h3>Конституционное право</h3>
+							<p>Российский государственный социальный университет ФГБОУ ВО </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-6.jpg" alt="tab">
+						<div>
+							<b>Проф. переподготовка</b>
+							<h3>Организация и технология защиты информации</h3>
+							<p>ГБПОУ города Москвы «Политехнический колледж им. Н.Н. </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+
+				<div id="four" class="tabs__wrap">
+					<div class="tabs__wrap_block">
+						<img src="img/tab-2.jpg" alt="tab">
+						<div>
+							<b>Высшее (бакалавриат)</b>
+							<h3>Социальная психология</h3>
+							<p>Институт мировых цивилизаций</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+
+					<div class="tabs__wrap_block">
+						<img src="img/tab-3.jpg" alt="tab">
+						<div>
+							<b>Колледж</b>
+							<h3>Операционная деятельность в логистике</h3>
+							<p>Колледж НОУ ВО «Московский Технологический Институт»</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-4.jpg" alt="tab">
+						<div>
+							<b>Высшее (магистратура)</b>
+							<h3>Конституционное право</h3>
+							<p>Российский государственный социальный университет ФГБОУ ВО </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-5.jpg" alt="tab">
+						<div>
+							<b>Проф. переподготовка</b>
+							<h3>Организация и технология защиты информации</h3>
+							<p>ГБПОУ города Москвы «Политехнический колледж им. Н.Н. </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+
+				<div id="five" class="tabs__wrap">
+					<div class="tabs__wrap_block">
+						<img src="img/tab-2.jpg" alt="tab">
+						<div>
+							<b>Высшее (бакалавриат)</b>
+							<h3>Социальная психология</h3>
+							<p>Институт мировых цивилизаций</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+
+					<div class="tabs__wrap_block">
+						<img src="img/tab-1.jpg" alt="tab">
+						<div>
+							<b>Колледж</b>
+							<h3>Операционная деятельность в логистике</h3>
+							<p>Колледж НОУ ВО «Московский Технологический Институт»</p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-3.jpg" alt="tab">
+						<div>
+							<b>Высшее (магистратура)</b>
+							<h3>Конституционное право</h3>
+							<p>Российский государственный социальный университет ФГБОУ ВО </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+					<div class="tabs__wrap_block">
+						<img src="img/tab-5.jpg" alt="tab">
+						<div>
+							<b>Проф. переподготовка</b>
+							<h3>Организация и технология защиты информации</h3>
+							<p>ГБПОУ города Москвы «Политехнический колледж им. Н.Н. </p>
+						</div>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+
+				<a href="#" class="tabs__btn">Показать еще  +  программы</a>
+
+			</div>
+		</section>
+
+		<section class="steps" id="steps">
+			<div class="container">
+				<h2>Шаги, которые мы пройдем вместе с вами</h2>
+				<div class="steps__list">
+					<div class="item">
+						<i class="sprite sprite-steps-icon1"></i>
+						<span>Обсуждение Вашего кейса</span>
+					</div>
+					<div class="item">
+						<i class="sprite sprite-steps-icon2"></i>
+						<span>Анализ информации</span>
+					</div>
+					<div class="item">
+						<i class="sprite sprite-steps-icon3"></i>
+						<span>Подача документов <br />в приемную комиссию</span>
+					</div>
+					<div class="item">
+						<i class="sprite sprite-steps-icon4"></i>
+						<span>План поступления</span>
+					</div>
+					<div class="item">
+						<i class="sprite sprite-steps-icon5"></i>
+						<span>Получение приглашения <br />(Letter of acceptance)</span>
+					</div>
+					<div class="item">
+						<i class="sprite sprite-steps-icon6"></i>
+						<span>Ваш приезд в Канаду — <br />"Welcome package"</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="calc" id="calc">
+			<div class="container">
+				<div class="calc__text col-ld-7 col-md-7 col-sm-12 col-xs-12">
+					<h2>Требования <br />к поступлению</h2>
+					<p>В высшие учебные заведения РФ</p>
+					<form>
+						<div class="item item--half">
+							<h3>Если Вы Ученик</h3>
+							<label for="school1" class="checked">1-10 класса школы</label>
+							<input type="radio" id="school1" name="school" />
+							<label for="school2">11 класс или уже  имеете аттестат</label>
+							<input type="radio" id="school2" name="school" />
+
+							<h3>если вы студент</h3>
+							<label for="school3">Имеете диплом Бакалавра</label>
+							<input type="radio" id="school3" name="school" />
+							<label for="school4">Имеете диплом Магистра</label>
+							<input type="radio" id="school4" name="school" />
+						</div>
+
+					</form>
+					<ul>
+						<li>• Поступать можно на последнем году обучения</li>
+						<li>• Подавать документы на поступление надо за 6-8 месяцев до начала учебы</li>
+						<li>• Последипломная программа дает специализацию <br />после полученного высшего образования.</li>
+					</ul>
+				</div>
+
+				<div class="calc__form col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+					<div class="inner">
+						<div class="element" id="plan3">
+							<h3>Ученик 10 класса</h3>
+							<p>При наличии у Вас аттестата за 11 класс Вы можете продолжить обучение через наш центр по программам среднего профессионального или высшего образования в одном из партнерских учебных заведений.</p>
+							
+							<h4>Необходимые документы:</h4>
+							<ul>
+								<li>• документ 1</li>
+								<li>• документ 2</li>
+								<li>• документ 3</li>
+							</ul>
+							<a href="#" class="btn btn--green message_open">Готовы поступать? Жмите!</a>
+						</div>
+
+						<div class="element" id="plan5">
+							<h3>Ученик 11 класса</h3>
+							<p>При наличии у Вас аттестата за 11 класс Вы можете продолжить обучение через наш центр по программам среднего профессионального или высшего образования в одном из партнерских учебных заведений.</p>
+							
+							<h4>Необходимые документы:</h4>
+							<ul>
+								<li>• документ 1</li>
+								<li>• документ 2</li>
+								<li>• документ 3</li>
+							</ul>
+							<a href="#" class="btn btn--green message_open">Готовы поступать? Жмите!</a>
+						</div>
+
+						<div class="element" id="plan1">
+							<h3>Имеете диплом Бакалавра</h3>
+							<p>При наличии у Вас аттестата за 11 класс Вы можете продолжить обучение через наш центр по программам среднего профессионального или высшего образования в одном из партнерских учебных заведений.</p>
+							
+							<h4>Необходимые документы:</h4>
+							<ul>
+								<li>• документ 1</li>
+								<li>• документ 2</li>
+								<li>• документ 3</li>
+							</ul>
+							<a href="#" class="btn btn--green message_open">Готовы поступать? Жмите!</a>
+						</div>
+
+						<div class="element" id="plan4">
+							<h3>Имеете диплом Магистра</h3>
+							<p>При наличии у Вас аттестата за 11 класс Вы можете продолжить обучение через наш центр по программам среднего профессионального или высшего образования в одном из партнерских учебных заведений.</p>
+							
+							<h4>Необходимые документы:</h4>
+							<ul>
+								<li>• документ 1</li>
+								<li>• документ 2</li>
+								<li>• документ 3</li>
+							</ul>
+							<a href="#" class="btn btn--green message_open">Готовы поступать? Жмите!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="faq" id="faq">
+			<div class="container">
+				<h2>Важные вопросы студентов</h2>
+				<p>И мои развернутые ответы на них</p>
+				<div class="list row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="tab__item">
+							<a href="#">1. Сколько стоят ваши услуги? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Я помогаю студентам абсолютно бесплатно</p>
+						</div>
+						<div class="tab__item">
+							<a href="#">2. Вы что, работаете без денег? Разве так бывает? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Все очень просто, учебные заведения платят  мне, что бы я помог вам поступить и приехать на учебу.</p>
+						</div>
+						<div class="tab__item">
+							<a href="#">3. Так значит Вы будете навязывать мне какие-то ВУЗы? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Я на вашей стороне, чтобы вам помочь, и я представляю учебные заведения по всей Канаде.  Мне нет смысла что-то навязывать вам, выбор огромен для вашей пользы.</p>
+						</div>
+						<div class="tab__item">
+							<a href="#">4. Какие сроки подачи документов? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Все программы обучения в средних и высших учебных заведениях начинаются в сентябре , но есть также некоторые программы в Январе и Мае. Языковые курсы принимают студентов круглый год. </p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="tab__item">
+							<a href="#">5. Как мне получить вашу помощь? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Напишите мне ваши вопросы и пожелания, обсудим предварительный план поступления. Лучше заполнить анкету.</p>
+						</div>
+						<div class="tab__item">
+							<a href="#">6. Примут ли меня на учебу? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Как раз этот вопрос мы и должны обсудить с вами перед подачей документов на поступление.  У моих студентов практически 100 % успех в поступлении, если вы следуете моим рекомендациям. </p>
+						</div>
+						<div class="tab__item">
+							<a href="#">7. Получу ли я визу на учебу? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>У меня очень большой положительный опыт в помощи  моим студентам , поэтому я уверен что вы успешно сможете и поступить и получить учебную визу. Давайте обсудим ваше поступление. </p>
+						</div>
+						<div class="tab__item">
+							<a href="#">8. Куда я буду оплачивать деньги за обучение? <img src="img/arrow.svg" alt="arrow" width="20" height="20px"></a>
+							<p>Вы будете платить напрямую в учебное заведение в которое вы подали документы и вас приняли на учебу. </p>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn btn--green question_open">Задать свой вопрос</a>
+			</div>
+		</section>
+		
+		<footer class="footer" id="contacts">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2266.515390478849!2d36.742386616051846!3d55.38391292784919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46cab0add2bd51c1%3A0x64418e611827bbc5!2z0KPQu9C40YbQsCDQn9C-0LvRg9Cx0L7Rj9GA0L7QstCwLCA4LCAzMDjQsCwg0J3QsNGA0L4t0KTQvtC80LjQvdGB0LosINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgMTQzMzAy!5e0!3m2!1sru!2sca!4v1526036335251"></iframe>
+
+			<div class="container">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				</div>
+				<div class="footer__text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<h2>КОНТАКТЫ</h2>
+
+					<ul class="footer__list">
+						<li><a href="#of">Центральный офис</a></li>
+						<li><a href="#reg">Офисы в других регионах</a></li>
+					</ul>
+
+					<div id="of" class="footer__tabs">
+						<ul>
+							<li>Московская область, г. Наро-Фоминск, ул. Полубоярова, стр. 8, оф.308а.</li>
+							<li><span>График работы:</span> ПН-ПТ с 10:00 до 17:00</li>
+							<li><span>Тел:</span> <a href="tel:8(496)34-44-634">8 (496) 34-44-634</a>, <a href="tel:+7-963-653-32-01">+7-963-653-32-01</a></li>
+							<li><span>Электронная почта:</span> <a href="#">ido130@yandex.ru</a>, <a href="#">terrobr@yandex.ru</a></li>
+							<li><span>Сайты:</span> <a href="www.terrobr.ru">www.terrobr.ru</a>, <a href="terrobr.bizbi.ru">terrobr.bizbi.ru</a></li>
+						</ul>
+					</div>
+
+					<div id="reg" class="footer__tabs">
+						<ul>
+							<li>Московская область, г. Наро-Фоминск, ул. Полубоярова, стр. 8, оф.308а.</li>
+							<li><span>График работы:</span> ПН-ПТ с 10:00 до 17:00</li>
+							<li><span>Тел:</span> <a href="tel:8(496)34-44-634">8 (496) 34-44-634</a>, <a href="tel:+7-963-653-32-01">+7-963-653-32-01</a></li>
+							<li><span>Электронная почта:</span> <a href="#">ido130@yandex.ru</a>, <a href="#">terrobr@yandex.ru</a></li>
+							<li><span>Сайты:</span> <a href="www.terrobr.ru">www.terrobr.ru</a>, <a href="terrobr.bizbi.ru">terrobr.bizbi.ru</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		
+		<div id="request" class="modal" id="anceta">
+			<button class="close-btn request_close">Close</button>
+			<div class="block">
+							<h2>Подать заявку на поступление</h2>
+
+			</div>
+			<form id="request_form">
+
+				<div class="request__container">
+
+					<div class="form-control">
+						<label for="username">Ваше имя:<strong>*</strong></label>
+						<input type="username" name="username" id="username" placeholder="Bаш имя" required/>
+					</div>
+
+					<div class="form-control">
+						<label for="tel">ТЕЛЕФОН (VIBER, WHATSAPP):<strong>*</strong></label>
+						<input type="tel" name="tel" id="tel" placeholder="Введите ваш телефон" required />
+					</div>
+
+					<div class="form-control">
+						<label for="email">E-mail:<strong>*</strong></label>
+						<input type="email" name="email" id="email" placeholder="Введите ваш e-mail" required />
+					</div>
+
+					<div class="form-control">
+						<label for="skype">sKype:</label>
+						<input type="text" name="skype" id="skype" placeholder="Введите ваш skype" />
+					</div>
+
+					<div class="form-control">
+						<label for="study">Полученное образование:<strong>*</strong></label>
+						<select name="study" id="study" required>
+							<option value="Школа">Школа</option>
+							<option value="Техникум">Техникум</option>
+							<option value="ВУЗ">ВУЗ</option>
+						</select>
+					</div>
+
+					<div class="form-control">
+						<small><strong>*</strong> обязательные поля</small>
+					</div>
+
+					<input type="checkbox" class="checkbox" id="calculation__checkbox">
+					<label for="calculation__checkbox" class="label label__active">Согласен на обработку персональных данных, получение рассылок, а также с <a href="#">политикой конфиденциальности</a>.								</label>
+
+				</div>
+
+				<div class="request__container">
+
+					<div class="form-textarea">
+						<label for="exp">ДОПОЛНИТЕЛЬНЫЕ СВЕДЕНИЯ: <span>(заполните при наличии и желании)</span></label>
+						<textarea name="exp" id="exp" cols="30" rows="6"></textarea>
+					</div>
+
+				<div class="form-btn">
+					<div class="g-recaptcha" data-sitekey="6LeQxlkUAAAAALHHkOv8TDDzvFRyWZ4ZBs8EtNXm"></div>
+					<button class="btn btn--green" type="submit" id="btn-checkbox">Отправить анкету</button>
+					<p>или позвоните по телефону <br><a href="tel:+7(963)653-32-01">+7 (963) 653-32-01</a></p>
+
+				</div>
+
+				<input type="hidden" name="subject" value="Новая анкета" />
+
+			</form>
+		</div>
+		<div id="thanks" class="modal">
+			<button class="close-btn thanks_close">Close</button>
+			<h2>Спасибо! Мы свяжемся с Вами в ближайшее время</h2>
+		</div>
+		<div id="question" class="modal">
+			<button class="close-btn question_close">Close</button>
+			<h2>Задать вопрос</h2>
+			<form id="question_form">
+				<div class="wrap">
+					<div class="form-control">
+						<label for="question_email">E-mail:<strong>*</strong></label>
+						<input type="email" name="email" id="question_email" placeholder="Введите ваш e-mail" required />
+					</div>
+					<div class="form-control">
+						<label for="question_tel">Телефон (Viber, WhatsApp):<strong>*</strong></label>
+						<input type="tel" name="tel" id="question_tel" placeholder="Введите ваш телефон" required />
+					</div>
+					<div class="form-control" style="width:100%;">
+						<label for="question_text"><br />Ваш вопрос:<strong>*</strong></label>
+						<textarea name="questions" id="question_text" cols="30" rows="10" required></textarea>
+					</div>
+				</div>
+				<input type="hidden" name="subject" value="Новый вопрос" />
+				<button class="btn btn--green" type="submit">Отправить</button>
+			</form>
+		</div>
+		<div id="message" class="modal">
+			<button class="close-btn message_close">Close</button>
+			<h2>Оставить заявку</h2>
+			<form id="message_form">
+				<div class="form-control">
+					<label for="username">Имя:<strong>*</strong></label>
+					<input type="text" name="username" id="username" placeholder="Введите ваше имя" required />
+				</div>
+				<div class="form-control">
+					<label for="message_email">E-mail:<strong>*</strong></label>
+					<input type="email" name="email" id="message_email" placeholder="Введите ваш e-mail" required />
+				</div>
+				<div class="form-control">
+					<label for="message_tel">Телефон:<strong>*</strong></label>
+					<input type="tel" name="tel" id="message_tel" placeholder="Введите ваш телефон" required />
+				</div>
+				<input type="hidden" name="subject" value="Заявка с формы" />
+				<button class="btn btn--green" type="submit">Отправить</button>
+			</form>
+		</div>
+		<div id="callback" class="modal">
+			<button class="close-btn callback_close">Close</button>
+			<h2>Заказать звонок</h2>
+			<form id="callback_form">
+				<div class="form-control">
+					<label for="callback_username">Имя:<strong>*</strong></label>
+					<input type="text" name="username" id="callback_username" placeholder="Введите ваше имя" required />
+				</div>
+				<div class="form-control">
+					<label for="callback_tel">Телефон:<strong>*</strong></label>
+					<input type="tel" name="tel" id="callback_tel" placeholder="Введите ваш телефон" required />
+				</div>
+				<input type="hidden" name="subject" value="Заказ обратного звонка" />
+				<button class="btn btn--green" type="submit">Отправить</button>
+			</form>
+		</div>
+		<div id="video" class="modal">
+			<button class="close-btn video_close">Close</button>
+			<div class="inner">
+				<div class="preview">
+					<img src="https://img.youtube.com/vi/2a9E0dha_uw/maxresdefault.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/flipster.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/scripts.js"></script>
+
+		<script src="js/scripts.min.js"></script>
+
+	</body>
+</html>

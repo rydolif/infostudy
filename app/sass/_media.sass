@@ -1,0 +1,388 @@
+@import "vars"
+
+@media only screen and (max-width : 1200px)
+
+	.header
+		.topbar nav ul
+			li
+				margin-right: 15px
+				a
+					font-size: 11px
+
+	.top
+		&__text
+		h1
+			font-size: 40px
+			line-height: 1.1
+			br
+				display: none
+
+		&__list
+			li
+				width: 23%
+				br
+					display: none
+
+	.about
+		.image
+			left: 0
+
+		&__text .about-slider .swiper-slide
+			padding-left: 150px
+	
+	.section
+		h2
+			margin-bottom: 30px
+
+	.namber
+		padding: 50px 0
+		h2
+			margin-bottom: 90px
+		b
+			font-size: 70px
+			top: -40px
+
+	.steps__list .item
+		&:nth-child(even)
+			&::after
+				top: -60px
+				right: -50px
+				transform: rotate(-50deg)
+
+		&:nth-child(odd)
+			&::after
+				top: 70px
+	
+	.choice
+		&__item
+			width: 19%
+	
+	.tabs
+		&__wrap
+			img
+				max-height: 200px
+	.footer__text
+		padding-left: 15px
+
+@media only screen and (max-width : 992px)
+	body
+		padding-top: 55px
+
+	.top
+
+		h1
+			margin-bottom: 40px
+
+		&__text
+			margin-bottom: 40px
+			.buttons
+				flex-direction: row
+				justify-content: space-around
+				.item
+					&:first-child
+						margin: 0
+					&:last-child
+						margin: 0
+
+		&__list
+			li
+				text-align: left
+
+	.header__logo
+		display: flex
+		align-items: center
+		p
+			display: block
+			float: right
+
+	.about
+		.title
+			padding-top: 0
+
+		.image
+			left: 0
+
+		&__text
+			.text
+				margin: 0
+
+			.about-slider .swiper-slide
+				padding: 0 40px
+
+		.swiper-button-next
+			left: 155px
+
+		.swiper-button-prev
+			left: 70px
+
+		.swiper-pagination-fraction
+			left: 100px
+	
+	.section
+		padding-bottom: 50px
+		padding-top: 50px
+
+	.namber
+		ul
+			flex-wrap: wrap
+
+		li
+			width: 48%
+			margin-bottom: 50px
+
+			&:nth-child(n+3)
+				margin-bottom: 0
+	
+	.steps__list .item
+		width: 32%
+		margin: 0 auto
+		&::after
+			display: none
+
+		&:nth-child(even)
+			margin-top: 0
+
+	.choice
+		&__item
+			width: 24%
+
+	.tabs
+		ul
+			margin-bottom: 30px
+
+		&__wrap
+			flex-wrap: wrap
+			&_block
+				width: 49%
+				margin-bottom: 20px
+	
+	.calc__text
+		padding-top: 60px
+
+	.calc
+		padding-bottom: 60px
+
+	.calc__text form .item--half
+		margin-bottom: 20px
+
+	.calc__text ul li
+		margin-left: 0
+
+	.modal#request form
+		.form-textarea
+			width: 100%
+
+		.form-btn
+			width: 100%
+
+			p
+				margin-bottom: 0
+
+@media only screen and (max-width : 767px)
+	.footer
+		padding-top: 0
+		iframe
+			position: relative
+			width: 100%
+			height: 300px
+			top: 0
+
+		&__text
+			text-align: center
+
+		ul
+			justify-content: center
+
+	.top
+		&__text
+			h2
+				br
+					display: none
+
+			.buttons .item p
+				br
+					display: none
+
+		&__list
+			ul
+				flex-wrap: wrap
+
+			li
+				width: 48%
+				margin-bottom: 20px
+
+				&:nth-child(n+3)
+					margin-bottom: 0
+					width: 50%
+					padding-right: 20px
+					border-top: 1px solid rgba(105, 124, 142, .25)
+
+	.header__logo
+		margin-left: 15px
+		p
+			br
+				display: block
+
+	.about
+		&__text
+			.about-slider
+				padding-bottom: 40px
+
+	.prices
+		padding-bottom: 40px
+
+		.title
+			margin: 30px -0px
+
+	.tabs
+		ul
+			flex-direction: column
+			border: none
+			text-align: center
+
+		li
+			border-bottom: 2px solid #d2dddf
+			padding-bottom: 10px
+
+		a
+			font-size: 14px
+
+		.active
+			&::after
+				bottom: -5px
+
+		&__wrap
+			margin-bottom: 30px
+			&_block
+				h3
+					margin-bottom: 0
+					font-size: 18px
+				
+@media only screen and (max-width : 540px)
+	.top
+		h1
+			font-size: 25px
+
+		h2
+			font-size: 18px
+
+		&__list
+			ul
+				flex-wrap: wrap
+				border: none
+			li
+				width: 80%
+				margin: 0 auto 30px auto
+				border-top: 1px solid rgba(105, 124, 142, .25)
+				text-align: center
+				&:nth-child(n+3)
+					width: 80%
+					margin-bottom: 30px
+					padding-right: 0
+				&:last-child
+					margin-bottom: 0
+
+		&__text
+			.buttons
+				flex-direction: column
+				padding-top: 0
+				.item
+					margin: 0 auto
+					&:first-child
+						margin-bottom: 30px
+					&:last-child
+						margin-bottom: 0
+
+		&__list
+			li
+				font-size: 14px
+				&:last-child
+					i
+						transform: rotate(0deg)
+
+				i
+					transform: rotate(90deg)
+
+	.about
+		&__text .about-slider .swiper-slide
+			padding: 0 20px
+
+	.steps__list .item
+		width: 48%
+
+	.choice
+		&__list
+			justify-content: space-around
+		&__item
+			width: 29%
+			div
+				min-height: 100px
+
+	.calc__text
+		padding-top: 30px
+
+	.calc
+		padding-bottom: 30px
+
+@media only screen and (max-width : 480px)
+	.header__logo
+
+		img
+			width: 100px
+
+		p
+			font-size: 9px
+
+	.section
+		padding: 40px 0
+		h2
+				font-size: 25px
+				margin-bottom: 35px
+
+	.namber
+
+		b
+			font-size: 50px
+			top: -30px
+
+		li
+			width: 80%
+			margin: 0 auto 40px auto
+
+			&:nth-child(n+3)
+				margin-bottom: 50px
+			&:last-child
+				margin-bottom: 0
+
+	.prices
+		.title
+			h2
+				font-size: 25px
+
+	.choice
+		&__list
+			justify-content: space-around
+
+		&__item
+			width: 32%
+			&:nth-child(n+7)
+				margin-bottom: 30px
+			&:nth-child(n+9)
+				margin-bottom: 0
+
+
+			div
+				min-height: 100px
+
+	.tabs
+		&__wrap
+
+			&_block
+				width: 98%
+
+		&__btn
+			padding: 15px 30px
+@media only screen and (max-width : 340px)
+	.steps__list 
+		.item
+			width: 99%
