@@ -786,73 +786,7 @@
 				</div>
 			</div>
 		</footer>
-		
-		<div id="request" class="modal" id="anceta">
-			<button class="close-btn request_close">Close</button>
-			<div class="block">
-							<h2>Подать заявку на поступление</h2>
 
-			</div>
-			<form id="request_form">
-
-				<div class="request__container">
-
-					<div class="form-control">
-						<label for="username">Ваше имя:<strong>*</strong></label>
-						<input type="username" name="username" id="username" placeholder="Bаш имя" required/>
-					</div>
-
-					<div class="form-control">
-						<label for="tel">ТЕЛЕФОН (VIBER, WHATSAPP):<strong>*</strong></label>
-						<input type="tel" name="tel" id="tel" placeholder="Введите ваш телефон" required />
-					</div>
-
-					<div class="form-control">
-						<label for="email">E-mail:<strong>*</strong></label>
-						<input type="email" name="email" id="email" placeholder="Введите ваш e-mail" required />
-					</div>
-
-					<div class="form-control">
-						<label for="skype">sKype:</label>
-						<input type="text" name="skype" id="skype" placeholder="Введите ваш skype" />
-					</div>
-
-					<div class="form-control">
-						<label for="study">Полученное образование:<strong>*</strong></label>
-						<select name="study" id="study" required>
-							<option value="Школа">Школа</option>
-							<option value="Техникум">Техникум/Колледж</option>
-							<option value="ВУЗ">ВУЗ</option>
-						</select>
-					</div>
-
-					<div class="form-control">
-						<small><strong>*</strong> обязательные поля</small>
-					</div>
-
-					<input type="checkbox" class="checkbox" id="calculation__checkbox">
-					<label for="calculation__checkbox" class="label label__active">Согласен на обработку персональных данных, получение рассылок, а также с <a href="#">политикой конфиденциальности</a>.								</label>
-
-				</div>
-
-				<div class="request__container">
-
-					<div class="form-textarea">
-						<label for="exp">ДОПОЛНИТЕЛЬНЫЕ СВЕДЕНИЯ: <span>(заполните при наличии и желании)</span></label>
-						<textarea name="questions" id="exp" cols="30" rows="6"></textarea>
-					</div>
-
-				<div class="form-btn">
-					<div class="g-recaptcha" data-sitekey="6LeQxlkUAAAAALHHkOv8TDDzvFRyWZ4ZBs8EtNXm" data-callback="correctCaptcha"></div>
-					<button class="btn btn--green" type="submit" id="btn-checkbox">Отправить анкету</button>
-					<p>или позвоните по телефону <br><a href="tel:+7(963)653-32-01">+7 (963) 653-32-01</a></p>
-
-				</div>
-
-				<input type="hidden" name="subject" value="Новая анкета" />
-
-			</form>
-		</div>
 		<div id="thanks" class="modal">
 			<button class="close-btn thanks_close">Close</button>
 			<h2>Спасибо! </h2>
@@ -1294,6 +1228,61 @@
       	<a data-fancybox="gallery-6" href="img/certificates/rgsu/Svidetelstvo.jpg"><img src="img/certificates/rgsu/Svidetelstvo.jpg" alt="certificate"></a>
       </div> 
       </div>  
+
+
+
+
+
+
+		<div id="request" class="modal" id="anceta">
+			<button class="close-btn request_close">Close</button>
+			<div class="block">
+			<h2>Подать заявку на поступление</h2>
+
+			</div>
+
+<form id="registerForm" method="get" action="">
+		<h4>Step One:</h4>
+		<span class="clock">Register under one minute!</span>
+    <label for="email-register" class="label">E-mail*</label>
+		<input id="email-register" name="email-register" type="email" value="" autocomplete="off"/>
+		
+		<label for="password-register" class="label">Password*</label>
+		<input id="password-register" name="password-register" type="password" value="" autocomplete="off"/>
+		
+		<div class="g-recaptcha" data-sitekey="6LcgMFwUAAAAAPCvPPqRVu1bJrOSNkUt7aivcY9P" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpired" style="margin-top: 3rem;"></div>
+		<input id="hidden-grecaptcha" name="hidden-grecaptcha" type="text" style="opacity: 0; position: absolute; top: 0; left: 0; height: 1px; width: 1px;"/>
+		</div>
+		<h4>Step two:</h4>
+		<span class="notice">All fields with a sign are required!</span>
+    <label for="first-name" class="label">First Name*</label>
+    <input name="first-name" id="first-name" type="text" value="" />
+    
+    <label for="last-name" class="label">Last Name*</label>
+    <input name="last-name" id="last-name" type="text" value="" />
+    
+    <label for="address" class="label">Address*</label>	
+    <input name="address" id="address" type="text" value=""/>
+		
+    <label for="entrance" class="label">Entrance</label>	
+    <input name="entrance" id="entrance" type="text" value=""/>
+		
+		<label for="apartment-number" class="label">Apartment #</label>
+    <input name="apartment-number" id="apartment-number" type="text" value="" />
+    
+    <label for="inter-phone" class="label">Interphone</label>			
+    <input name="inter-phone" id="inter-phone" type="text" value=""/>
+    
+    <label for="telephone" class="label">Mobile Number*</label>
+		<input name="telephone" id="telephone" type="text" value="" />
+		
+    <label for="special-instructions" class="label">Special Instructions</label>	
+    <textarea name="special-instructions" id="special-instructions"></textarea>
+		<div>
+	<button class="button-register" disabled>Register</button>
+</form>
+
+		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
@@ -1302,5 +1291,103 @@
 		<script src="js/scripts.js"></script>
 
 		<script src="js/scripts.min.js"></script>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script>
+
+function debounce(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+};
+function recaptchaCallback() {
+	var response = grecaptcha.getResponse(),
+		$button = jQuery(".button-register");
+	jQuery("#hidden-grecaptcha").val(response);
+	console.log(jQuery("#registerForm").valid());
+	if (jQuery("#registerForm").valid()) {
+		$button.attr("disabled", false);
+	}
+	else {
+		$button.attr("disabled", "disabled");
+	}
+}
+function recaptchaExpired() {
+	var $button = jQuery(".button-register");
+	jQuery("#hidden-grecaptcha").val("");
+	var $button = jQuery(".button-register");
+	if (jQuery("#registerForm").valid()) {
+		$button.attr("disabled", false);
+	}
+	else {
+		$button.attr("disabled", "disabled");
+	}
+}
+function submitRegister() {
+  //ajax stuff
+}
+(function ($, root, undefined) {
+	$(function () {
+		'use strict';
+        jQuery("#registerForm").find("input").on("keyup", debounce(function() {
+          var $button = jQuery(".button-register");
+          console.log(jQuery("#registerForm").valid());
+          if (jQuery("#registerForm").valid()) {
+            $button.attr("disabled", false);
+          }
+          else {
+            $button.attr("disabled", "disabled");
+          }
+        }, 1000));
+        jQuery("#registerForm").validate({
+          rules: {
+            "email-register": {
+              required: true,
+              email: true
+            },
+            "password-register": {
+              required: true,
+              minlength: "6"
+            },
+            "first-name": "required",
+            "last-name": "required",
+            address: "required",
+            telephone: "required",
+            "hidden-grecaptcha": {
+              required: true,
+              minlength: "255"
+            }
+          },
+          messages: {
+            "email-register": "Enter valid e-mail address",
+            "password-register": {
+              required: "Enter valid password",
+              minlength: "Password must be bigger then 6 chars!"
+            },
+            "first-name": "Required!",
+            "last-name": "Required!",
+            address: "Required!",
+            telephone: "Required!"
+          },
+          submitHandler: submitRegister
+        });
+    });	
+})(jQuery, this);
+
+
+</script>
 	</body>
 </html>

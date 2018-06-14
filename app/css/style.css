@@ -1324,7 +1324,7 @@ a img {
 }
 
 .calc__text form .item:last-child label {
-    display: inline-block;
+    display: block;
     margin-right: 50px
 }
 

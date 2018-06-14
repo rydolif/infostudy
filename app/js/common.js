@@ -39,5 +39,10 @@ $(".preloader").delay(1000).fadeOut();
     }
 });
 
+$('.modal').popup({ transition: 'all 0.3s' });
+
+
+  
+
 });
 

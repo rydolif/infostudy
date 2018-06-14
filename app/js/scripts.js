@@ -6,6 +6,16 @@ function recaptchaCallback() {
   $('#hiddenRecaptcha').valid();
 };
 
+
+var correctCaptcha = function(response) {
+        alert('invis test passed');
+    };
+
+    
+function after_invis_activated(token){
+	console.log('invis test passed');
+}
+
 	jQuery( "#request_form" ).validate({
 		ignore: ".ignore",
 		messages: {
@@ -168,6 +178,10 @@ function recaptchaCallback() {
 
 
 jQuery(document).ready(function() {
+
+	$('.modal__certificate img').click(function() {
+		jQuery('.modal').popup('hide');
+	});
 	
 	jQuery('input[type=tel]').mask("+7 (999) 999-9999");
 	
@@ -254,31 +268,45 @@ jQuery(document).ready(function() {
 		if(jQuery('label[for=school1]').hasClass('checked')) {
 			jQuery('.calc__form .element').hide();
 			jQuery('.calc__form #plan3').show();
-		} else if(jQuery('label[for=school2]').hasClass('checked')) {
+		} /*else if(jQuery('label[for=school2]').hasClass('checked')) {
 			if(jQuery('label[for=level1]').hasClass('checked')) {
 				jQuery('.calc__form .element').hide();
 				jQuery('.calc__form #plan5').show();
 			}
-		}
+		}*/
 
 		if(jQuery('label[for=school3]').hasClass('checked')) {
 			jQuery('.calc__form .element').hide();
 			jQuery('.calc__form #plan1').show();
-		} else if(jQuery('label[for=school4]').hasClass('checked')) {
+		} /*else if(jQuery('label[for=school4]').hasClass('checked')) {
 			if(jQuery('label[for=level3]').hasClass('checked')) {
 				jQuery('.calc__form .element').hide();
 				jQuery('.calc__form #plan4').show();
 			}
-		}
+		}*/
 
 		if(jQuery('label[for=school4]').hasClass('checked')) {
 			jQuery('.calc__form .element').hide();
 			jQuery('.calc__form #plan4').show();
-		} else if(jQuery('label[for=school3]').hasClass('checked')) {
+		} /*else if(jQuery('label[for=school3]').hasClass('checked')) {
 			if(jQuery('label[for=level3]').hasClass('checked')) {
 				jQuery('.calc__form .element').hide();
 				jQuery('.calc__form #plan4').show();
 			}
+		}*/
+
+		if(jQuery('label[for=school2]').hasClass('checked')) {
+			jQuery('.calc__form .element').hide();
+			jQuery('.calc__form #plan2').show();
+		} /*else if(jQuery('label[for=school3]').hasClass('checked')) {
+			if(jQuery('label[for=level3]').hasClass('checked')) {
+				jQuery('.calc__form .element').hide();
+				jQuery('.calc__form #plan4').show();
+			}
+		}*/
+		if(jQuery('label[for=school5]').hasClass('checked')) {
+			jQuery('.calc__form .element').hide();
+			jQuery('.calc__form #plan5').show();
 		}
 	});
 	

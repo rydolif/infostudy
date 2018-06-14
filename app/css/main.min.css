@@ -12,6 +12,19 @@
   src: url("../webfonts/fa-solid-900.eot");
   src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"); }
 
+.prices .my-flipster li .inner {
+    padding-top: 50px;
+    overflow: auto;
+}
+
+#thanks {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+#thanks p {
+  text-align: center; }
+
 body {
   padding-top: 105px; }
 
@@ -330,10 +343,8 @@ body {
       margin-top: 15px; }
     .modal#request form textarea {
       width: 100%;
-      border: none;
-      margin: 0 auto; }
+      border: none; }
     .modal#request form .form-btn {
-      width: 37%;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -343,20 +354,10 @@ body {
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
       text-align: left;
       margin-top: 35px; }
       .modal#request form .form-btn button {
-        margin-bottom: 30px;
-        width: 100%;
-        max-width: 320px; }
+        margin-bottom: 30px; }
   .modal#request .request__container:nth-child(2) {
     border-bottom: none; }
   .modal#request .request__container {
@@ -819,6 +820,126 @@ fieldset {
 
 label.error {
   color: red; }
+
+.modal-programs {
+  width: 100%;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background: #fff;
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  padding: 0;
+  font-family: ProximaNova-Regular, sans-serif;
+  padding: 20px;
+  max-width: 500px; }
+  .modal-programs ul {
+    line-height: 1.3;
+    list-style: disc;
+    margin-left: 30px;
+    margin-bottom: 20px; }
+    .modal-programs ul li:not(:last-child) {
+      margin-bottom: 10px; }
+  .modal-programs h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    color: #212121;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px; }
+  .modal-programs h4 {
+    margin-bottom: 20px; }
+  .modal-programs img {
+    width: 98%; }
+  .modal-programs ol {
+    padding-left: 20px; }
+  .modal-programs__close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    padding: 0 0 20px;
+    margin: 0;
+    outline: 0;
+    border: none;
+    background: 0 0;
+    z-index: 101;
+    cursor: pointer;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+    .modal-programs__close::after, .modal-programs__close::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      display: block;
+      height: 2px;
+      width: 100%;
+      background: #BDBDBD;
+      -webkit-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease; }
+    .modal-programs__close::before {
+      top: 10px;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg); }
+    .modal-programs__close::after {
+      top: 10px;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+    .modal-programs__close:focus {
+      outline: none; }
+  .modal-programs p {
+    font-size: 14px;
+    text-align: left; }
+
+.popup_visible .modal {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1); }
+
+.popup_visible .modal {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1); }
+
+.tabs__wrap_block h3 {
+  font-size: 16px; }
+
+.modal-university {
+  text-align: center;
+  width: 100%;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background: #fff;
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  padding: 0;
+  font-family: ProximaNova-Regular, sans-serif;
+  padding: 20px;
+  max-width: 500px; }
+  .modal-university p {
+    margin-bottom: 10px; }
+  .modal-university .top-text {
+    text-align: center; }
+    .modal-university .top-text h4 {
+      font-size: 16px;
+      margin: 20px 0; }
+
+.modal__certificate {
+  max-width: 100%;
+  text-align: center; }
+  .modal__certificate img {
+    max-width: 48%;
+    margin-top: 15px; }
 
 @media only screen and (max-width: 1200px) {
   .header .topbar nav ul li {
